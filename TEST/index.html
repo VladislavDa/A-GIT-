@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Тестовое задание, Данилов Владислав</title>
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {
+                families: ['Open+Sans:400,300,600,700:latin,cyrillic']
+            }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar-001">
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Logo</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Главная <span class="sr-only">(current)</span></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог товаров <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Категория 1</a></li>
+                                    <li class="divider"></li>
+                                    <!--Выпадающее подменю: https://ru.stackoverflow.com/questions/615802/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B5%D0%B2%D0%BE%D0%B5-%D0%BC%D0%B5%D0%BD%D1%8E-bootstrap-3-->
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#">Категория 2</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a tabindex="-1" href="#">Категория 1</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Категория 2</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Категория 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Категория 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">О нашем магазине</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-right">
+                            <button type="submit" class="btn btn-default">Заказать звонок</button>
+                        </form>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+
+    <div class="navbar-001 hidden-xs">
+        <div class="container-fluid">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="img-responsive" src="img/%D1%84%D0%BE%D1%82%D0%BE.jpg" alt="promo 1">
+                        <div class="carousel-caption">
+                            <div class="jumbotron row">
+                                <h2>Здесь будет ваш текст</h2>
+                                <p>Вы можете описать преимущества Ваших услуг и товара</p>
+                                <p>
+                                    <a class="btn btn-success btn-md" href="#" role="button">Кнопка 1</a>
+                                    <a class="btn btn-default btn-md" href="#" role="button">Кнопка 2</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="img/Rectangle%203%20copy1.jpg" alt="promo 2">
+                        <div class="carousel-caption">
+                            <div class="jumbotron row">
+                                <div class="col-md-5"></div>
+                                <div class="col-md-7 jumbotron-right">
+                                    <h2>Здесь будет ваш текст</h2>
+                                    <p>Здесь вы можете описать преимущества Ваших услуг</p>
+                                    <p>Здесь будет Ваш текст. Вы можете описать преимущества Ваших услуг или товара. Здесь будет Ваш текст. Вы можете описать преимущества Ваших услуг или товара.</p>
+                                    <p>
+                                        <a class="btn btn-success btn-md" href="#" role="button">Кнопка 1</a>
+                                        <a class="btn btn-default btn-md" href="#" role="button">Кнопка 2</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar-001 about_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Информация о компании</h4>
+                    <hr>
+                    <p>Здесь будет Ваш текст. Вы можете описать преимущества Ваших услуг или товара, добавить интересную информацию для посетителей сайта. Здесь будет Ваш текст.</p>
+                    <button onclick="show('block')" id="btn-form">Свяжитесь с нами</button>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-3">
+                    <h4>Контактная информация</h4>
+                    <hr>
+                    <address>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> 8 (800) 800-00-00</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> 8 (800) 800-00-00</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:mail@mail.ru">mail@mail.ru</a></li>
+                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> Пн-Вс: 10:00 - 21:00</li>
+                            <li><i class="fa fa-map" aria-hidden="true"></i> СПб, пр. Косыгина 31,к.1</li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Каталог</h4>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Категория товаров 1</a></li>
+                        <li><a href="#">Категория товаров 2</a></li>
+                        <li><a href="#">Категория товаров 3</a></li>
+                        <li><a href="#">Категория товаров 4</a></li>
+                        <li><a href="#">Категория товаров 5</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Информация</h4>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Полезная информация 1</a></li>
+                        <li><a href="#">Полезная информация 2</a></li>
+                        <li><a href="#">Полезная информация 3</a></li>
+                        <li><a href="#">Полезная информация 4</a></li>
+                        <li><a href="#">Полезная информация 5</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="navbar-001">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-text">&copy; МАГАЗИН 2017. Все права защищены.</div>
+                <div class="col-md-2  col-md-offset-4 hidden-xs hidden-sm">
+                    <div class="social-btn"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                    <div class="social-btn"><a href=""><i class="fa fa-vk" aria-hidden="true"></i></a></div>
+                    <div class="social-btn"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+                <div class="col-md-2 footer-text">Разработано в
+                    <a href="http://rosait.ru/" target="_blank"><img src="img/Shape%209%20copy.png" alt="Россайт"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        //Функция показа
+        function show(state) {
+
+            document.getElementById('wrap-contact-form').style.display = state;
+            document.getElementById('contact-form').style.display = state;
+        }
+    </script>
+
+    <div onclick="show('none')" id="wrap-contact-form" style="display: none;"></div>
+    <div id="contact-form" style="display: none;">
+        <h3>Свяжитесь с нами</h3>
+        <p>Свяжитесь с нашей службой поддержки клиентов, если у Вас есть какие-либо вопросы.</p>
+        <form id="contactForm" data-toggle="validator" class="shake" method="get">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Ваше имя" required data-error="NEW ERROR MESSAGE">
+                <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+                <textarea id="message" class="form-control" rows="4" placeholder="Ваше сообщение" required></textarea>
+                <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group accept">
+                <input type="checkbox" name="accept">
+                <a href="#"> Даю своё согласие на обработку персональных данных в соответствии с пользовательским соглашением</a>
+            </div>
+            <button type="submit" id="form-submit" class="btn btn-default btn-md">Отправить сообщение</button>
+            <div id="msgSubmit" class="h3 text-center hidden"></div>
+        </form>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>

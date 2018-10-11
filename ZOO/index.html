@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Зоопарк</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <img src="img/zoopark.png" alt="" width="200">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#animals">Our animals</a>
+                    </li>
+                    <li>
+                        <a href="#feedbacks">Feedbacks</a>
+                    </li>
+                    <li>
+                        <a href="#about_us">About us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="text">Do you want play with me?</div>
+                <img src="img/lion-1118467_960_720.jpg" style="width:100%">
+                <div class="button"><a href="#">Buy tickets</a></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="text" style="width:450px">I wanna eat...</div>
+                <img src="img/tiger-1285229_960_720.jpg" style="width:100%">
+                <div class="button"><a href="#">Buy tickets</a></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="text">From the depth</div>
+                <img src="img/lion-fish-768605_960_720.jpg" style="width:100%">
+                <div class="button"><a href="#">Buy tickets</a></div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section>
+            <div class="heading" id="animals">
+                <h2>Our animals</h2>
+            </div>
+
+            <div class="animal-card"><img src="img/z1.jpg" alt=""></div>
+            <div class="animal-card"><img src="img/z2.jpg" alt=""></div>
+            <div class="animal-card"><img src="img/z3.jpg" alt=""></div>
+            <div class="animal-card"><img src="img/z4.jpg" alt=""></div>
+            <div class="animal-card"><img src="img/z5.jpg" alt=""></div>
+            <div class="animal-card"><img src="img/z6.jpg" alt=""></div>
+
+            <a href="">See more</a>
+
+
+        </section>
+
+
+        <section class="feedbacks-wrap">
+            <div class="heading" id="feedbacks">
+                <h2>Feedbacks</h2>
+            </div>
+
+            <div class="feedback" id="feed1">
+                <div class="avatar" id="ava1"></div>
+                <h3>Lorem ipsum</h3>
+                <p id="text-feed1">Dolor sit amet, consectetur adipisicing elit. Magni, rem eius non, inventore officia architecto, esse aut odit distinctio debitis incidunt laudantium, nesciunt qui exercitationem sit culpa expedita unde corporis.</p>
+            </div>
+
+            <div class="feedback" id="feed2">
+                <div class="avatar" id="ava2"></div>
+                <h3>Lorem ipsum</h3>
+                <p class="text-feed">Dolor sit amet, consectetur adipisicing elit. Magni, rem eius non, inventore officia architecto, esse aut odit distinctio debitis.</p>
+            </div>
+
+            <div class="feedback" id="feed3">
+                <div class="avatar" id="ava3"></div>
+                <h3>Lorem ipsum</h3>
+                <p class="text-feed">Dolor sit amet, consectetur adipisicing elit. Magni, rem eius non, inventore officia architecto, esse aut odit distinctio debitis.</p>
+            </div>
+
+            <a href="">See more</a>
+
+        </section>
+
+
+        <section id="about-wrap">
+            <div class="heading" id="about_us">
+                <h2>About us</h2>
+            </div>
+
+            <p class="text-about_us">Every one can visit us if pay just <strong>5$</strong> </p>
+            <p class="text-about_us">We work every day from 10 a.m. to 7 p.m</p>
+            <p class="text-about_us">You can find us in Google Maps</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.314011989152!2d14.403686116099829!3d50.11784577943086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bead4f9db039b%3A0x96d9543c02ebb5bd!2z0J_RgNCw0LbRgdC60LjQuSDQt9C-0L7Qv9Cw0YDQug!5e0!3m2!1sru!2sru!4v1533198133148" width="960" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <p class="text-about_us">Also we will thankfull for your donation!</p>
+            <div class="donation">
+                <p>No act of kindness, no matter how small, is ever wasted</p>
+                <div class="button"><a href="">Donate</a></div>
+
+            </div>
+
+        </section>
+    </div>
+    
+    <footer>
+       <div class="footer-wrap">
+           <img src="img/real-estate-1468143_960_720.png" alt="" width="1104" id="home-sticker">
+        <img src="img/bus-1468141_960_720.png" alt=""  width="520" id="bus-sticker">
+        <img src="img/mail-1468464_960_720.png" alt=""
+        width="527" id="mail-sticker">
+        <img src="img/phone-1468467_960_720.png" alt="" width="254" id="phone-sticker">
+        <a href="https://twitter.com/" id="twit"><img src="img/twitter-1460520_960_720.png" alt="" width="180" id="twitter-sticker"></a>        
+        <img src="img/heart-1460522__340.png" alt="" width="581" id="heart-sticker">
+        <span id="footer-text1">Our address <br>Pracha, Zoo st. 23</span>
+        <span id="footer-text2">bus №45, 125, 564</span>
+        <span id="footer-text3">zoo.praha@ya.org</span>
+        <span id="footer-text4">+98 564 45 345 34</span>
+        <span id="footer-text5">We love you !</span>
+       </div>        
+    </footer>
+    <div class="copyright">2018 &copy; made by Danilov Vladislav</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

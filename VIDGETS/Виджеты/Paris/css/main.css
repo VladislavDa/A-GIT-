@@ -1,0 +1,168 @@
+html,
+body,
+p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrap {
+    position: relative;
+    background-image: url(../img/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 100%;
+    width: 800px;
+    height: 600px;
+    margin: 0px auto;
+    padding-top: 1px;
+}
+
+.widget {
+    width: 696px;
+    height: 435px;
+    background-image: url(../img/Paris.png);
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+.widget-header {
+    margin-top: 70px;
+}
+
+.date {
+    float: right;
+    width: 85px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+.day_of_week {
+    font-size: 30px;
+    font-weight: 300;    
+}
+
+.day_of_month {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.mainInfo {
+    float: right;
+    width: 156px;
+    margin-right: 65px;
+    margin-top: 70px;
+}
+
+.mainInfo-p1 {   
+    font-size: 90px;
+    font-weight: 900;    
+    text-align: center;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.mainInfo-p2 {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainInfo-p3 {
+    position: relative;
+    padding-left: 58px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.mainInfo-p3 > span {
+    font-size: 13px;
+}
+
+.mainInfo-p3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    width: 43px;
+    height: 27px;
+    background-image: url(../img/Wind.png);
+    background-repeat: no-repeat;    
+}
+
+header::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+footer {
+    position: relative;
+    display: inline-block;
+    width: 696px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;    
+    padding: 0;
+}
+
+.widget-footer ul li {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    vertical-align: top;
+    border-right: 1px solid white;    
+}
+
+.widget-footer li:last-child {
+    border-right: none;   
+}
+
+.widget-footer img {  
+    margin-top: 10px;
+}
+
+.Tuesday img {
+    margin-bottom: 10px;
+}
+
+footer:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 12px;
+    height: 19px;
+    background-image: url(../img/Back.png);
+    background-repeat: no-repeat;
+}
+
+
+footer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 636px;
+    width: 12px;
+    height: 19px;
+    background-image: url(../img/Next.png);
+    background-repeat: no-repeat;
+}
+
+.PSD {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
